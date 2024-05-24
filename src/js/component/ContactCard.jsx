@@ -1,5 +1,6 @@
 import React from "react";
 
+import "../../styles/contactCard.css";
 
 
 const ContactCard = ({name, address, phone, email}) => {

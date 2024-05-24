@@ -1,6 +1,6 @@
 import React from "react";
 import Contacts from "./Contacts.jsx";
-import AddContact from "./AddContacts.jsx";
+import AddContact from "./AddContact.jsx";
 
 
 import "../../styles/home.css";
@@ -8,7 +8,7 @@ import "../../styles/home.css";
 export const Home = () => (
 	<div className="text-center mt-5">
 	    <div>
-			<AddContact />
+			
 		</div>
 		<div>
 			<Contacts />

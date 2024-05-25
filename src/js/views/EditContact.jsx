@@ -17,7 +17,7 @@ const EditContact = () => {
     }, []);
 
     const loadContact = () => {
-        fetch(`https://playground.4geeks.com/contact/agendas/JavierRuisanchez/contacts/${params.id}`)
+        fetch(`https://playground.4geeks.com/contact/agendas/MKirby/contacts/${params.id}`)
             .then(response => response.json())
             .then(data => {
                 setName(data.name);

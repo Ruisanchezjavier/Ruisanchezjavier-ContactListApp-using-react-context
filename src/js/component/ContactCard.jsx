@@ -6,7 +6,7 @@ import "../../styles/contactCard.css";
 const ContactCard = ({id, name, address, phone, email}) => {
 
     return (
-            <div>
+            <div className="completeCard">
                 <div className="contact">
                     <img src="https://xsgames.co/randomusers/assets/avatars/pixel/46.jpg"/>
                     <div className="contactInfo">

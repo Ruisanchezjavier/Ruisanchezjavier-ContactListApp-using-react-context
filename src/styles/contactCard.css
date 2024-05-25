@@ -19,3 +19,8 @@ img {
 svg {
     margin-right: 10px;
 }
+
+.completeCard{
+    margin-right: 50%; 
+    padding-right: 10%;
+}
